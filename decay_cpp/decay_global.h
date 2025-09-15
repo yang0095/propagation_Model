@@ -1,0 +1,11 @@
+#ifndef DECAY_GLOBAL_H
+#define DECAY_GLOBAL_H
+
+
+#if defined(DECAY_LIBRARY)
+#  define DECAYSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define DECAYSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // DECAY_GLOBAL_H
